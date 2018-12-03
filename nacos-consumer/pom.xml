@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.gaius.microservice</groupId>
-	<artifactId>nacos-client</artifactId>
+	<artifactId>nacos-consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>nacos-client</name>
+	<name>nacos-consumer</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -36,6 +36,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
